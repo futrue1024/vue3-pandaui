@@ -30,8 +30,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601712438142</updated>
-      <workItem from="1601712439385" duration="5784000" />
+      <workItem from="1601712439385" duration="8370000" />
     </task>
     <servers />
   </component>
@@ -53,9 +58,13 @@
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
     <state x="1644" y="755" key="EditFileWatcherDialog/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601723392884" />
-    <state x="1489" y="599" key="SettingsEditor" timestamp="1601723402047">
+    <state x="1489" y="599" key="SettingsEditor" timestamp="1601727896229">
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
-    <state x="1489" y="599" key="SettingsEditor/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601723402047" />
+    <state x="1489" y="599" key="SettingsEditor/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601727896229" />
+    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup" timestamp="1601727887915">
+      <screen x="1440" y="0" width="1080" height="1920" />
+    </state>
+    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601727887915" />
   </component>
 </project>
