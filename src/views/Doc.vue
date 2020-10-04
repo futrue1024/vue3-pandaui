@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <top-nav/>
+  <div class="layout">
+    <top-nav class="nav"/>
     <div class="content">
       <aside v-if="menuVisible">
         <h2>侧边列表</h2>
@@ -20,7 +20,7 @@
         </ol>
       </aside>
       <main>
-        1
+
         <router-view></router-view>
       </main>
     </div>
@@ -43,6 +43,39 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.layout {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+  > .nav {
+    flex-shrink: 0;
+  }
+
+  > .content {
+    flex-grow: 1;
+    padding-top: 70px;
+    padding-left: 156px;
+    @media (max-width: 500px) {
+      padding-left: 0;
+    }
+  }
+}
+
+.content {
+  display: flex;
+
+  > aside {
+    flex-shrink: 0;
+  }
+
+  > main {
+    flex-grow: 1;
+    padding: 16px;
+    background: #4FC08D;
+  }
+}
+
 aside {
   background: lightblue;
   width: 150px;
@@ -51,6 +84,7 @@ aside {
   top: 0;
   left: 0;
   margin-top: 70px;
+  height: 100%;
 
   > h2 {
     margin-bottom: 4px;
@@ -58,6 +92,7 @@ aside {
 
   > ol {
     top: 300px;
+
     > li {
       padding: 4px 0;
     }

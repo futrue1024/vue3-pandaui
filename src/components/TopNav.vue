@@ -36,7 +36,10 @@ export default {
   background-color: white;
   display: flex;
   padding: 16px;
-  position: relative;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
   z-index: 10;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 
