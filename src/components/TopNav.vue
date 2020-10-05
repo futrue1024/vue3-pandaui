@@ -1,8 +1,8 @@
 <template>
   <div class="topNav">
     <div class="logo">
-      <icon name="panday"/>
-      <h1 class="text"><span class="first">P</span>anda-UI</h1>
+      <icon class="icon" name="screw"/>
+      <h1 class="text"><span class="first">S</span>crew-ui</h1>
     </div>
     <ul class="menu">
       <li>菜单一</li>
@@ -58,8 +58,9 @@ export default {
     }
 
     > .icon {
-      width: 30px;
-      height: 30px;
+      width: 32px;
+      height: 32px;
+      animation:screw 4s infinite linear;
     }
   }
 
@@ -87,6 +88,7 @@ export default {
       width: 22px;
       height: 22px;
       vertical-align: middle;
+
     }
 
   }
@@ -103,6 +105,13 @@ export default {
     }
   }
 }
-
+@keyframes screw {
+  0%{
+    transform: rotateZ(0);
+  }
+  100%{
+    transform: rotateZ(-360deg);
+  }
+}
 
 </style>
