@@ -58,8 +58,8 @@ export default {
     }
 
     > .icon {
-      width: 32px;
-      height: 32px;
+      width: 30px;
+      height: 30px;
       animation:screw 4s infinite linear;
     }
   }
