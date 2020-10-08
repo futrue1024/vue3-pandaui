@@ -22,7 +22,6 @@ export default {
   components: {Icon},
   setup() {
     const menuVisible = inject<Ref<boolean>>("xxx");
-    console.log("topNav" + menuVisible.value);
     const toggleMenu = () => {
       menuVisible.value = !menuVisible.value;
     };

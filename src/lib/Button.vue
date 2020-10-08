@@ -1,5 +1,5 @@
 <template>
-  <button class="screw-button" :class="classes" :disabled="disabled">
+  <button class="screw-button" :class="classes" :disabled="disable">
     <slot/>
   </button>
 </template>
