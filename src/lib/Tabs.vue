@@ -29,31 +29,28 @@ export default {
     const selectedItem = ref<HTMLDivElement>(null);
     const indicator = ref<HTMLDivElement>(null);
     const container = ref<HTMLDivElement>(null);
-    onMounted(() => {
-      watchEffect(() => {
-        const {width} = selectedItem.value.getBoundingClientRect();
-        console.log(indicator.value);
-        console.log(selectedItem.value);
+    const watch = () => {
+      return watchEffect(() => {
+        const {
+          width
+        } = selectedItem.value.getBoundingClientRect();
         indicator.value.style.width = width + "px";
-        const {left: left1} = container.value.getBoundingClientRect();
-        const {left: left2} = selectedItem.value.getBoundingClientRect();
+        const {
+          left: left1
+        } = container.value.getBoundingClientRect();
+        const {
+          left: left2
+        } = selectedItem.value.getBoundingClientRect();
         const left = left2 - left1;
         indicator.value.style.left = left + "px";
       });
+    };
+    onMounted(() => {
+      watch();
     });
-    // onUpdated(() => {
-    //   watchEffect(() => {
-    //     const {width} = selectedItem.value.getBoundingClientRect();
-    //     console.log(indicator.value);
-    //     console.log(selectedItem.value);
-    //     console.log(width);
-    //     indicator.value.style.width = width + "px";
-    //     const {left: left1} = container.value.getBoundingClientRect();
-    //     const {left: left2} = selectedItem.value.getBoundingClientRect();
-    //     const left = left2 - left1;
-    //     indicator.value.style.left = left + "px";
-    //   });
-    // });
+    onUpdated(() => {
+      watch();
+    });
 
     const defaults = context.slots.default();
     //default为函数
@@ -69,7 +66,7 @@ export default {
     });
     const select = (title: string) => {
       context.emit("update:selected", title);
-      console.log('title被更新了'+title);
+      console.log("title被更新了" + title);
     };
     return {defaults, titles, current, select, selectedItem, indicator, container};
   }

@@ -10,7 +10,6 @@
     </ul>
     <span class="toggleMenu" @click="toggleMenu"> <icon name="menu"/></span>
   </div>
-
 </template>
 
 <script lang='ts'>
@@ -32,15 +31,15 @@ export default {
 
 <style lang='scss' scoped>
 .topNav {
-  background-color: white;
+
   display: flex;
-  padding: 16px;
+  padding: 10px;
   position: fixed;
   top:0;
   left: 0;
   width: 100%;
   z-index: 10;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+
 
   > .logo {
     max-width: 18em;
@@ -59,7 +58,7 @@ export default {
     > .icon {
       width: 30px;
       height: 30px;
-      animation:screw 4s infinite linear;
+      animation:screw 3s infinite linear;
     }
   }
 

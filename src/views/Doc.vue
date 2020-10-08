@@ -20,7 +20,6 @@
         </ol>
       </aside>
       <main>
-
         <router-view></router-view>
       </main>
     </div>
@@ -50,6 +49,8 @@ export default {
 
   > .nav {
     flex-shrink: 0;
+    background: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
   }
 
   > .content {
@@ -67,6 +68,8 @@ export default {
 
   > aside {
     flex-shrink: 0;
+    background: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
   }
 
   > main {
@@ -79,7 +82,7 @@ export default {
 
 aside {
   background: lightblue;
-  width: 150px;
+  width: 160px;
   padding: 16px;
   position: fixed;
   top: 0;

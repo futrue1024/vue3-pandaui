@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9da5dc2-0a10-49ea-8c5d-5f7cd07daa7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1601712439385" duration="17564000" />
       <workItem from="1601778327617" duration="4424000" />
       <workItem from="1601860496578" duration="15089000" />
-      <workItem from="1602064889975" duration="23402000" />
+      <workItem from="1602064889975" duration="27618000" />
     </task>
     <task id="LOCAL-00001" summary="提交Switch样式">
       <created>1601781340647</created>
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602035397345</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tabs完成">
+      <created>1602156825191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602156825191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,17 +135,18 @@
     <MESSAGE value="提交Switch样式" />
     <MESSAGE value="完成button基本样式" />
     <MESSAGE value="button组件完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="button组件完成" />
+    <MESSAGE value="Tabs完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabs完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601777753402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1601777753402" />
-    <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602035397240">
+    <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602156825014">
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
-    <state x="1663" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602035397240" />
+    <state x="1663" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602156825014" />
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601781340519" />
     <state x="1540" y="100" width="880" height="1720" key="DiffContextDialog" timestamp="1601903405715">
       <screen x="1440" y="0" width="1080" height="1920" />
