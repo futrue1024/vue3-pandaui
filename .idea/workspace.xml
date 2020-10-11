@@ -20,27 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9da5dc2-0a10-49ea-8c5d-5f7cd07daa7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icon1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IconDemo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shims-vue.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +82,7 @@
       <workItem from="1601712439385" duration="17564000" />
       <workItem from="1601778327617" duration="4424000" />
       <workItem from="1601860496578" duration="15089000" />
-      <workItem from="1602064889975" duration="75602000" />
+      <workItem from="1602064889975" duration="77113000" />
     </task>
     <task id="LOCAL-00001" summary="提交Switch样式">
       <created>1601781340647</created>
