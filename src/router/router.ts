@@ -5,11 +5,11 @@ import Switch from "../components/SwitchDemo.vue";
 import Button from "../components/ButtonDemo.vue";
 import Dialog from "../components/DialogDemo.vue";
 import Tabs from "../components/TabsDemo.vue";
-import GetStarted from '../lib/GetStarted.vue'
-import Install from '../lib/install.vue'
-import Intro from '../lib/intro.vue'
 
+import Markdown from "../components/Markdown.vue";
+import {h} from "vue";
 
+const md = filename => h(Markdown, {path: `../markdown/${filename}.md`, key: filename});
 const history = createWebHashHistory();
 export const router = createRouter(
   {
@@ -22,9 +22,9 @@ export const router = createRouter(
           {path: "dialog", component: Dialog},
           {path: "button", component: Button},
           {path: "tabs", component: Tabs},
-          {path: "intro", component: Intro},
-          {path: "install", component: Install},
-          {path: "get-started", component: GetStarted}
+          {path: "intro", component: md('intro')},
+          {path: "install", component: md('install')},
+          {path: "get-started", component: md('get-started')}
         ]
       }
     ]
