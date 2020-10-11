@@ -20,10 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9da5dc2-0a10-49ea-8c5d-5f7cd07daa7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icon1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IconDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -83,7 +101,7 @@
       <workItem from="1601712439385" duration="17564000" />
       <workItem from="1601778327617" duration="4424000" />
       <workItem from="1601860496578" duration="15089000" />
-      <workItem from="1602064889975" duration="64662000" />
+      <workItem from="1602064889975" duration="75602000" />
     </task>
     <task id="LOCAL-00001" summary="提交Switch样式">
       <created>1601781340647</created>
@@ -134,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602404248574</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="抽离Demo，改造Switch组件">
+      <created>1602409249764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602409249764</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,17 +185,18 @@
     <MESSAGE value="实现首页背景色及icon引入" />
     <MESSAGE value="自制vite插件支持markdown" />
     <MESSAGE value="展示源代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="展示源代码" />
+    <MESSAGE value="抽离Demo，改造Switch组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽离Demo，改造Switch组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601777753402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1601777753402" />
-    <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602404248434">
+    <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602409249594">
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
-    <state x="1663" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602404248434" />
+    <state x="1663" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602409249594" />
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601781340519" />
     <state x="1540" y="100" width="880" height="1720" key="DiffContextDialog" timestamp="1601903405715">
       <screen x="1440" y="0" width="1080" height="1920" />

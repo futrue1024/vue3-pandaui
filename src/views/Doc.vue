@@ -19,6 +19,9 @@
           <h2>组件</h2>
           <ol>
             <li>
+              <router-link to="/doc/icon">Icon组件</router-link>
+            </li>
+            <li>
               <router-link to="/doc/switch">Switch组件</router-link>
             </li>
             <li>
@@ -49,7 +52,6 @@ export default {
   components: {TopNav},
   setup() {
     const menuVisible = inject<Ref<boolean>>("xxx");
-    console.log(menuVisible.value);
     return {menuVisible};
   }
 };

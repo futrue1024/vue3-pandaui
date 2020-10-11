@@ -13,6 +13,7 @@ export const openDialog = (options)=>{
             app.unmount(div)
           }
           },ok,cancel},{title,content})
+        //slot内容子元素
       }
     }
   )

@@ -8,9 +8,7 @@
       <Button @click="codeVisible = !codeVisible">查看代码</Button>
     </div>
     <div class="demo-code" v-if="codeVisible">
-
-         <pre class="code language-html"
-              v-html="html"/>
+         <pre class="code language-html" v-html="html"/>
     </div>
   </div>
 </template>
@@ -65,7 +63,7 @@ $border-color: #d9d9d9;
       margin: 0;
     }
     @media (max-width: 500px) {
-      width: 360px;
+      width: 378px;
     }
   }
 }

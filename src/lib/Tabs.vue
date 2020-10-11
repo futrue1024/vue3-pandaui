@@ -66,7 +66,6 @@ export default {
     });
     const select = (title: string) => {
       context.emit("update:selected", title);
-      console.log("title被更新了" + title);
     };
     return {defaults, titles, current, select, selectedItem, indicator, container};
   }
