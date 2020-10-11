@@ -20,13 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9da5dc2-0a10-49ea-8c5d-5f7cd07daa7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/GetStarted.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/install.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/intro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +83,8 @@
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/views" />
     </key>
   </component>
@@ -83,7 +99,7 @@
       <workItem from="1601712439385" duration="17564000" />
       <workItem from="1601778327617" duration="4424000" />
       <workItem from="1601860496578" duration="15089000" />
-      <workItem from="1602064889975" duration="27618000" />
+      <workItem from="1602064889975" duration="49640000" />
     </task>
     <task id="LOCAL-00001" summary="提交Switch样式">
       <created>1601781340647</created>
@@ -113,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602156825191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="实现首页背景色及icon引入">
+      <created>1602166513696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602166513697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,17 +159,18 @@
     <MESSAGE value="完成button基本样式" />
     <MESSAGE value="button组件完成" />
     <MESSAGE value="Tabs完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tabs完成" />
+    <MESSAGE value="实现首页背景色及icon引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现首页背景色及icon引入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601777753402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1601777753402" />
-    <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602156825014">
+    <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602166513590">
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
-    <state x="1663" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602156825014" />
+    <state x="1663" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602166513590" />
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601781340519" />
     <state x="1540" y="100" width="880" height="1720" key="DiffContextDialog" timestamp="1601903405715">
       <screen x="1440" y="0" width="1080" height="1920" />
@@ -160,9 +184,13 @@
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
     <state x="1489" y="599" key="SettingsEditor/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601727896229" />
-    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup" timestamp="1601727887915">
+    <state x="1688" y="552" width="584" height="816" key="find.popup" timestamp="1602316240530">
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
-    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601727887915" />
+    <state x="1688" y="552" width="584" height="816" key="find.popup/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602316240530" />
+    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup" timestamp="1602315241736">
+      <screen x="1440" y="0" width="1080" height="1920" />
+    </state>
+    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1602315241736" />
   </component>
 </project>

@@ -20,7 +20,7 @@
 
 <script lang='ts'>
 import Button from "./Button.vue";
-import Icon from "../components/Icon.vue";
+import Icon from "./Icon.vue";
 
 export default {
   props: {
