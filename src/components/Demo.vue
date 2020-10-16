@@ -5,16 +5,17 @@
       <component :is="component"/>
     </div>
     <div class="demo-actions">
-      <Button @click="codeVisible = !codeVisible">查看代码</Button>
+      <Button @click="showCode" v-if="!codeVisible">查看代码</Button>
+      <Button @click="hiddenCode" v-else>隐藏代码</Button>
     </div>
     <div class="demo-code" v-if="codeVisible">
-         <pre class="code language-html" v-html="html"/>
+      <pre class="code language-html" v-html="html"/>
     </div>
   </div>
 </template>
 
 <script lang='ts'>
-import {ref,computed} from "vue";
+import {ref, computed} from "vue";
 import Button from "../lib/Button.vue";
 import "prismjs";
 import "prismjs/themes/prism-okaidia.css";
@@ -27,10 +28,12 @@ export default {
   components: {Button},
   setup(props) {
     const codeVisible = ref(false);
-     const html = computed(()=>{
-       return Prism.highlight(props.component.__sourceCode,Prism.languages.html,'html')
-     })
-    return {Prism,codeVisible,html};
+    const showCode = () => {codeVisible.value = true;};
+    const hiddenCode = () => {codeVisible.value = false;};
+    const html = computed(() => {
+      return Prism.highlight(props.component.__sourceCode, Prism.languages.html, "html");
+    });
+    return {Prism, codeVisible, html, showCode, hiddenCode};
   }
 };
 </script>
@@ -59,9 +62,11 @@ $border-color: #d9d9d9;
   &-code {
     padding: 8px 16px;
     border-top: 1px dashed $border-color;
-    >pre{
+
+    > pre {
       margin: 0;
     }
+
     @media (max-width: 500px) {
       width: 378px;
     }

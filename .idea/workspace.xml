@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9da5dc2-0a10-49ea-8c5d-5f7cd07daa7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +65,14 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +86,9 @@
       <workItem from="1601712439385" duration="17564000" />
       <workItem from="1601778327617" duration="4424000" />
       <workItem from="1601860496578" duration="15089000" />
-      <workItem from="1602064889975" duration="77113000" />
+      <workItem from="1602064889975" duration="77943000" />
+      <workItem from="1602813761252" duration="2541000" />
+      <workItem from="1602819661351" duration="883000" />
     </task>
     <task id="LOCAL-00001" summary="提交Switch样式">
       <created>1601781340647</created>
@@ -170,10 +176,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="抽离Demo，改造Switch组件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601777753402">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1784" y="453" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602820443147">
+      <screen x="1440" y="23" width="1080" height="1897" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1601777753402" />
+    <state x="1784" y="453" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.816/1440.23.1080.1897@1440.23.1080.1897" timestamp="1602820443147" />
     <state x="1663" y="0" key="CommitChangelistDialog2" timestamp="1602409249594">
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
